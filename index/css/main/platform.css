@@ -1,0 +1,125 @@
+.page__platform {
+    margin: 0px 0px 74px 0px;
+}
+
+.platform__container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.platform__item {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.platform__content {
+    max-width: 643px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.platform__content-title {
+    margin: 0px 0px 89px 0px;
+
+}
+.platform__content-title-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.platform__content-subtitle-img{
+    margin: 0px 31px 0px 0px;
+
+}
+.platform__content-subtitle {
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+.platform__content-subtitle::after{
+    content: '';
+
+    position: absolute;
+    top:-40px;
+    left:0;
+    width:125px;
+    height:125px;
+
+    background: rgba(96, 92, 234, 0.5);
+    filter: blur(50px);
+}
+.platform__content-subtitle-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 380px;
+}
+
+
+.platform__img {
+    position: relative;
+}
+.platform__img::after{
+    content: '';
+
+    position: absolute;
+    top:-40%;
+    left:-40%;
+    min-width:666px;
+    min-height: 783px;
+    z-index: -1;
+
+    background: rgba(250, 0, 255, 0.2);
+    filter: blur(125px);
+    transform: rotate(-105.26deg);
+}
+.platform__img-iamge {
+    border-radius: 12%;
+}
+
+@media(max-width:879px){
+    .platform__img {
+        margin: 0px -136px 0px 0px;
+    }
+    .platform__img-iamge{
+        width: 100%;
+        min-width: 161px;
+        min-height: 322px;
+    }
+    .platform__img::after{
+        left:-45%;
+    }
+}
+@media(max-width:725px){
+    .platform__content-subtitle-img{
+        display: none;
+    }
+    .platform__content-title-text{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .platform__content-subtitle-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .platform__content{
+        padding: 0px 15px 0px 0px;
+    }
+    .page__platform {
+        margin: 0px 0px 55px 0px;
+    }
+    .platform__content-title {
+        margin: 0px 0px 24px 0px;
+    }
+    .platform__content-subtitle::after {
+        display: none;
+    }
+}

@@ -1,0 +1,124 @@
+.page__scanner {
+    background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+    margin: 0px 0px 200px 0px;
+    position: relative;
+}
+
+.scanner__container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.scanner__item {
+    padding: 350px 0px 0px 0px;
+    position: relative;
+}
+
+
+.scanner__bg {
+    position: absolute;
+    top:0;
+    left:-12%;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+.scanner__bgb-img {
+}
+
+
+.scanner__content {
+    display:flex;
+    justify-content: space-between;
+}
+
+.scanner__img {
+    display: flex;
+}
+.scanner__image{
+}
+.scanner__img-image {
+}
+.scanner__img-image-first{
+    margin: 0px 50px 0px 0px;
+}
+
+
+.scanner__text {
+    max-width: 315px;
+    max-height: 600px;
+    display:flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.scanner__text-title {
+    margin: 0px 0px 23px 0px;
+}
+.scanner__text-subtitle {
+}
+
+@media(max-width:1110px){
+    .page__scanner {
+        background: unset;
+        margin: 0px 0px 100px 0px;
+    }
+
+    
+    .scanner__bg{
+        position: relative;
+        left: -10px;
+    }
+    .scanner__bgb-img{
+        width: 108%;
+        min-width: 457px;
+        min-height: 300px;
+    }
+    .scanner__bg::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width:108%;
+        height:100%;
+
+        background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+    }
+
+
+    .scanner__item {
+        padding: 150px 0px 0px 0px;
+    }
+
+
+    .scanner__content{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .scanner__text{
+        margin: -40px 0px 70px 0px;
+        max-width: unset;
+        text-align: center;
+    }
+
+
+    .scanner__img{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 43px;
+    }
+    .scanner__img-image-first {
+        margin: 0px 0px 55px 0px;
+    }
+    .scanner__img-image {
+        width: 100%;
+        min-width: 287px;
+        min-height: 585px;
+    }
+}
+@media(max-width:725px){
+    .scanner__item {
+        padding: 50px 0px 0px 0px;
+    }
+}

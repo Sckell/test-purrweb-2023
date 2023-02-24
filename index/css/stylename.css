@@ -1,0 +1,97 @@
+@font-face { 
+    font-family: "Avenir";
+    src: url('./fonts/AnyConv.com__AvenirLT-Medium.woff2'),
+    url('./fonts/AvenirLT-Medium.woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Avenir";
+    src: url('./fonts/AnyConv.com__AvenirLT-Heavy.woff2'),
+    url('./fonts/AvenirLT-Heavy.woff');
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+/* ------------------------------- */
+
+@font-face { 
+    font-family: "Noto Sans";
+    src: url('./fonts/notosans/NotoSans.woff2'),
+    url('./fonts/notosans/NotoSans.woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Noto Sans";
+    src: url('./fonts/notosans/NotoSans-Bold.woff2'),
+    url('./fonts/notosans/NotoSans-Bold.woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Noto Sans";
+    src: url('./fonts/notosans/NotoSansSC-Medium-Alphabetic.woff2'),
+    url('./fonts/notosans/NotoSansSC-Medium-Alphabetic.woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+/* ------------------------------- */
+
+@font-face { 
+    font-family: "Roboto";
+    src: url('./fonts/roboto/Roboto-Regular.woff2'),
+    url('./fonts/roboto/Roboto-Regular.woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Roboto";
+    src: url('./fonts/roboto/Roboto-Medium.woff2'),
+    url('./fonts/roboto/Roboto-Medium.woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Roboto";
+    src: url('./fonts/roboto/Roboto-Bold.woff2'),
+    url('./fonts/roboto/Roboto-Bold.woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* ------------------------------- */
+
+@font-face { 
+    font-family: "Montserrat";
+    src: url('./fonts/monserrat/Montserrat-Regular.woff2'),
+    url('./fonts/monserrat/Montserrat-Regular.woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Montserrat";
+    src: url('./fonts/monserrat/Montserrat-Medium.woff2'),
+    url('./fonts/monserrat/Montserrat-Medium.woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face { 
+    font-family: "Montserrat";
+    src: url('./fonts/monserrat/Montserrat-ExtraBold.woff2'),
+    url('./fonts/monserrat/Montserrat-ExtraBold.woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}

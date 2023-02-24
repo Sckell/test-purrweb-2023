@@ -1,0 +1,74 @@
+.page__notab {
+    margin: 0px 0px 250px 0px;
+}
+
+.notab__container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.notab__item {
+    position: relative;
+
+}
+
+
+.notab__bg {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:inherit;
+    z-index: -1;
+}
+.notab__bg-img {
+    max-height: 800px;
+    width: 100%;
+}
+.notab__bg::after{
+    content: '';
+
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+    background: linear-gradient(360deg, #000000 6.8%, rgba(0, 0, 0, 0) 51.62%, #000000 97.38%);
+}
+
+
+.notab__content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 200px 0px 0px 0px;
+}
+.notab__img {
+    position: relative;
+}
+.notab__img-image {
+
+}
+
+.notab__img::after{
+    content: '';
+
+    position: absolute;
+    top:25px;
+    left:95px;
+    width:100%;
+    height:100%;
+    max-width: 675px;
+    max-height: 377px;
+
+    background: url(../../img/main/notab/Screenshot\ 2020-09-17\ at\ 11.49notab-iphon-bg.png) no-repeat;
+}
+
+
+@media(max-width:1130px){
+    .page__notab {
+       display: none;
+    }
+}
